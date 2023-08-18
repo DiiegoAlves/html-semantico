@@ -39,5 +39,17 @@ Lista de Tarefas:
 3. Lustrar o piano
 
 
-> BMW E46
-![Skyline R33](https://www.carscoops.com/wp-content/uploads/2019/07/6efdf7d0-bmw-m3-e46-.jpg)
+ Este é um método `console.log()` do javascript.
+
+Esta é uma função do javascript:
+```javascript 
+function selecionaElemento() {
+  const body = document.querySelector('body');
+  }
+```
+
+Exemplo | Valor do Exemplo | Outro Exemplo
+:------- | :----------------: | ----------:
+Banana | Chocolate | Coxinha
+Maçã | Bala Juquinha | Esfiha
+Uva | Bombom | Tapioca
