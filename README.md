@@ -3,9 +3,9 @@
 Aqui vamos entender como estruturar nossa aplicação semanticamente
 
 Texto em **negrito** com asterisco
-A
+
 Texto em __Negrito__ com underscore
-A
+
 Texto em  *itálico* com asterisco
 
 Texto em _Itálico_ com underscore
