@@ -1,10 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Semântico</title>
+    <title>Tags semânticas do HTML</title>
 </head>
 <body>
+    <header id="topo">
+    <h1>Explorando as Tags Semânticas do HTML</h1>
+    <nav>
+        <ul>
+            <li> <a href="#introducao">HTML e Tags Semânticas</a> </li>
+            <li> <a href="#secao1">Tag Figure </a></li>
+            <li> <a href="#secao2">Tag Blockquote </a></li>
+            <li> <a href="#secao3">Tag Footer </a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="introducao">
+    <article>
+        <h2> <ins> O Propósito das Tags Semânticas no HTML </ins> </h2>
+        <h3>Para compreendermos a utilização das Tags Semânticas, primeiramente precisamos entender primeiro o HTML</h3>
+        
+        <strong>O que é HTML?</strong>
+
+        <p> Criada pelo britânico <em>Tim Berners-Lee</em>, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos. </p>
+        <p> Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações. </p>
+        <p> Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página. </p>
+        <p> Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais. Veremos mais à frente o que significam essas linguagens.</p>
+        <h4> E o que são Tags Semânticas?</h4>
+        <p> As tags semânticas são elementos HTML que fornecem significado e estrutura ao conteúdo de uma página da web. Diferentemente das tags não semânticas, como "&lt;div&gt;"ou "&lt;span&gt;", que são mais genéricas, as tags semânticas têm um propósito específico e ajudam a descrever a função e a importância do conteúdo dentro do contexto da página. </p>
+    </article>
+</section>
+
+<main>
+    <h2> <ins> Vamos ver alguns exemplos de Tags Semânticas </ins> </h2>
+    
+    <section id="secao1">
+    
+        <h3> Exemplo de Tag 1 &lt;figure&gt; </h3>
+    
+        <p> Com a Tag Figure, temos a possibilidade de acrescentar imagens e a descrição da mesma. </p>
+    
+        <figure>
+        <img height=140 src="https://i.pinimg.com/originals/46/9b/8e/469b8e066d4c01accb903411ea51c2de.jpg" alt="Raios no céu">
+        <figcaption> Raios no céu </figcaption>
+    </figure>
+    </section>
+    
+    <section id="secao2">
+<h3> Exemplo de Tag 2 &lt;blockquote&gt;</h3>
+
+<p>A tag blockquote em HTML é usada para exibir as citações longas (uma seção que é citada de outra fonte). Ele muda o alinhamento para torná-lo único em relação aos outros. Ele contém tags de abertura e fechamento. Na tag blockquote, podemos usar elementos como título, lista, parágrafo, etc.</p>
+
+
+
+
+<blockquote cite="https://acervolima.com/tag-html-blockquote/">
+    
+    <p>Por exemplo esta citação é tirada do AcervoLima.</p>
+  
+</blockquote>
+
+</section>
+<h3> Exemplo de Tag 3 &lt;footer&gt;</h3> 
+</main>
+<footer id="secao3">
+    <p> O footer ou Rodapé na tradução litoral, serve para "finalizar" o conteúdo ou a seção de uma página e contém detalhes de contato, endereço ou acesso a outras seções. </p>
+Endereço: Rua Moreira de Godói, SENAI Automobilística, São Paulo-SP
+<br> Contato: (11) 97672-9320
+</footer>
+
+<a href="#topo">Clique Aqui</a>
+
+
+
+
+
+
 </body>
 </html>
