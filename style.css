@@ -1,9 +1,48 @@
 body {
-    color: crimson;
+   margin: 20px 50px;
 }
 
-h1 {
-    color: firebrick;
-    line-height:  2;
+p {
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.paragrafo-de-artigo {
+    background-color:#668586;
+    color:#93c6d6;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.titulo-de-pagina {
+    color:#668586;
+    line-height:  1.5;
     font-weight: bold;
+    font-size: 24pt;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.subtitulo-de-pagina {
+    color: #82aeb1;
+    line-height:  1.5;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.titulo-de-exemplo {
+    color: #93c6d6;
+    line-height:  1.5;
+    font-weight: bold;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.autor-do-artigo {
+    color: #a7acd9;
+    line-height:  1.5;
+    font-weight: bold;
+    font-size: 10px 0;
+    font-family:Arial, Helvetica, sans-serif
 }
