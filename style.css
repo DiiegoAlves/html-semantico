@@ -1,5 +1,6 @@
 body {
    margin: 20px 50px;
+   text-align: justify;
 }
 
 p {
@@ -9,14 +10,13 @@ p {
 }
 
 .paragrafo-de-artigo {
-    background-color:#668586;
     color:#93c6d6;
     padding:15px;
     border-radius: 10px;
 }
 
 .titulo-de-pagina {
-    color:#668586;
+    color:#0ae6ee;
     line-height:  1.5;
     font-weight: bold;
     font-size: 24pt;
@@ -31,7 +31,7 @@ p {
     font-family:Arial, Helvetica, sans-serif
 }
 
-.titulo-de-exemplo {
+.autor-exemplo {
     color: #93c6d6;
     line-height:  1.5;
     font-weight: bold;
@@ -39,10 +39,13 @@ p {
     font-family:Arial, Helvetica, sans-serif
 }
 
-.autor-do-artigo {
-    color: #a7acd9;
+.rodape {
+    background-color: #a7acd9;
+    color: #000002;
     line-height:  1.5;
     font-weight: bold;
-    font-size: 10px 0;
+    font-size: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
     font-family:Arial, Helvetica, sans-serif
 }
