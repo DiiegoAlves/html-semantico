@@ -8,6 +8,7 @@ p {
     line-height: 1.2;
     text-align: justify;
     margin-bottom: 20px;
+    margin: 0%;
 }
 
 .paragrafo-de-artigo {
@@ -34,28 +35,27 @@ p {
     background-color: #e2e3f1;
     color: #010b0c;
     padding: 15px;
-    border-radius: 10pt;
+    border-radius: 10pt 10px 0 0;
 }
 
 .paragrafo2 {
     background-color: #e2e3f1;
     color: #010b0c;
     padding: 15px;
-    border-radius: 10pt;
 }
 
 .paragrafo3 {
     background-color: #e2e3f1;
     color: #010b0c;
     padding: 15px;
-    border-radius: 10pt;
 }
 
 .paragrafo4 {
     background-color: #e2e3f1;
     color: #010b0c;
     padding: 15px;
-    border-radius: 10pt;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .paragrafob1 {
