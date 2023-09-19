@@ -1,5 +1,6 @@
 body {
-   margin: 20px 50px;
+   background-color: rgb(187, 187, 187);
+    margin: 20px 50px;
    text-align: justify;
 }
 
@@ -10,29 +11,76 @@ p {
 }
 
 .paragrafo-de-artigo {
-    color:#93c6d6;
+    background-color: #b8b8cf;
+    color:#020e13;
     padding:15px;
     border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .titulo-de-pagina {
-    color:#0ae6ee;
+    background-color: #ecf1f3;
+    border-radius: 15px ;
+   padding: 10px;
+    color:#07696d;
     line-height:  1.5;
     font-weight: bold;
     font-size: 24pt;
     font-family:Arial, Helvetica, sans-serif
 }
 
-.subtitulo-de-pagina {
-    color: #82aeb1;
-    line-height:  1.5;
-    font-weight: bold;
-    font-size: 20pt;
-    font-family:Arial, Helvetica, sans-serif
+.paragrafo1 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
+}
+
+.paragrafo2 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
+}
+
+.paragrafo3 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
+}
+
+.paragrafo4 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
+}
+
+.paragrafob1 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
+}
+
+.paragrafoc1 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
+}
+
+.paragrafoc2 {
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
 }
 
 .autor-exemplo {
-    color: #93c6d6;
+    color: #00080a;
     line-height:  1.5;
     font-weight: bold;
     font-size: 16pt;
@@ -40,12 +88,8 @@ p {
 }
 
 .rodape {
-    background-color: #a7acd9;
-    color: #000002;
-    line-height:  1.5;
-    font-weight: bold;
-    font-size: 15px 0;
-    padding: 10px;
-    border-radius: 10px;
-    font-family:Arial, Helvetica, sans-serif
+    background-color: #e2e3f1;
+    color: #010b0c;
+    padding: 15px;
+    border-radius: 10pt;
 }
